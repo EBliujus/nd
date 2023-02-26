@@ -1,12 +1,15 @@
 import './App.scss';
-import Meska from './Components/React-base/Meska';
-
+import Zuikis from './Components/React-base/Zuikis';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Meska color="brown" />
+
+        <Zuikis></Zuikis>
+        <Zuikis />
+
+
       </header>
     </div>
   );
