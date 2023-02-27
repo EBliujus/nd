@@ -1,13 +1,13 @@
 import './App.scss';
-import Autoriai from './Components/React-base/Autoriai';
+import Gyvunai from './Components/React-base/ZebraiIrBebrai';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <Autoriai book1={"Tomo Sojerio nuotykiai"} book2={"15 metu kapitonas"} color="aqua" />
-
+      <Gyvunai color={"color"}/>
 
       </header>
     </div>
