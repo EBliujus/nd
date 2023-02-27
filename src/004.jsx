@@ -1,13 +1,13 @@
 import './App.scss';
-import  PropsTwo from './Components/React-base/PropsTwo';
+import Gyvunai from './Components/React-base/ZebraiIrBebrai';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <PropsTwo random1="medziai" random2="Medeliai" />
-
+      <Gyvunai/>
 
       </header>
     </div>
